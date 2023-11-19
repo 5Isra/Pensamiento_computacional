@@ -1,0 +1,57 @@
+Algoritmo 
+	Algoritmo calcular_mult
+		Definir num1,num2,res,oper, Como Entero
+		
+		num1<-azar(100)+1
+		num2<-azar(9)+1
+		
+		Escribir "Elige la operacion"
+		Escribir "suma"
+		Escribir "resta"
+		Escribir "multiplicacion"
+		Escribir "Divicion"
+		leer oper 
+		
+		si oper=1Entonces
+			Escribir num1+num2 Entonces
+			leer Res 
+			Si res=num1num2 Entonces
+				Escribir "correcto"
+			SiNo
+				Escribir "incorrecto"
+			Fin Si
+		SiNo
+			Si oper=2Entonces
+				Escribir num1,"-",num2,"="
+				Leer res
+				Si res=numnum2 Entonces
+					Escribir "Correcto"
+				SiNo
+					Escribir "incorrecto"
+				Fin si 
+				
+			SiNo
+				Si oper=3 Entonces
+					Escribir num1, "*",num2,"="
+					Leer res
+					Si res=num1*num2 Entonces
+						Escribir "correcto"
+					SiNo
+						Escribir "correcto"
+					Fin Si 
+				SiNo
+					Si oper=4 ENTONCES 
+						Escribir num1,"/",num2,"="
+						Leer res 
+						Si res=num1/num2 Entonces
+							Escribir "Correcto"
+						SiNo
+							Escribir "Operador no valido"
+						Fin Si
+					SiNo
+						Escribir "operador no valido"
+					Fin Si
+				Fin Si
+			Fin Si
+		Fin Si 
+		FinAlgoritmo 
